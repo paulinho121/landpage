@@ -79,8 +79,9 @@ function App() {
   ]
 
   const handleCTA = () => {
-    // Aqui você pode adicionar a lógica de redirecionamento para a página de checkout
-    alert('Redirecionando para a página de compra...')
+    // Redireciona para o checkout do Hotmart em nova aba
+    const url = 'https://pay.hotmart.com/L102280542P'
+    window.open(url, '_blank', 'noopener,noreferrer')
   }
 
   return (
