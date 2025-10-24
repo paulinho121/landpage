@@ -20,37 +20,37 @@ function App() {
     },
     {
       icon: <Sparkles className="w-6 h-6" />,
-      title: "Redescobrir o Prazer e a Excitação",
-      description: "Aprenda técnicas e abordagens para reacender a paixão e experimentar orgasmos mais intensos e satisfatórios."
+      title: "Prazer e Excitação Imediata: O Fim da Rotina!",
+      description: "Técnicas e abordagens validadas para reacender a paixão e garantir orgasmos mais intensos e satisfatórios. **Resultados nas primeiras 72h!**"
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: "Construir Confiança e Segurança",
-      description: "Supere inseguranças e medos, construindo um relacionamento baseado na honestidade e no desejo mútuo."
+      title: "Confiança Inabalável: Superando Medos e Inseguranças",
+      description: "Método passo a passo para superar inseguranças e construir um relacionamento baseado em **100% de honestidade e desejo mútuo**."
     },
     {
       icon: <Star className="w-6 h-6" />,
-      title: "Explorar Novas Fantasias Sexuais",
+      title: "O Guia Secreto para Explorar Novas Fantasias (Com Segurança)",
       description: "Um guia seguro para você e seu parceiro(a) explorarem juntos um mundo de possibilidades eróticas."
     },
     {
       icon: <Heart className="w-6 h-6" />,
-      title: "Aumentar a Autoestima e o Desejo",
+      title: "Seu Parceiro(a) Mais Desejado(a) do que Nunca!",
       description: "Veja seu parceiro(a) sob uma nova luz e sinta-se mais desejado(a) do que nunca."
     }
   ]
 
   const testimonials = [
     {
-      text: "Nunca imaginei que poderíamos chegar a esse nível de intimidade e excitação. O livro do Paulinho abriu nossos olhos para um mundo novo!",
+      text: "Em 10 anos de casamento, nunca sentimos tanta conexão e prazer. O livro do Paulinho foi o divisor de águas. **Recomendamos 100%!**",
       author: "Casal A."
     },
     {
-      text: "Eu tinha muitos receios, mas a leitura me deu a segurança e o conhecimento para conversar com meu parceiro. Nossa vida sexual nunca foi tão boa!",
+      text: "Eu estava com medo, mas o guia me deu a segurança e o vocabulário para ter a conversa. Nossa vida sexual? **Simplesmente a melhor!**",
       author: "Leitora B."
     },
     {
-      text: "Uma leitura essencial para quem busca quebrar a rotina e explorar o prazer de forma consciente e consensual.",
+      text: "Essencial para quem quer quebrar a rotina. É o manual do prazer consciente e consensual. **Leitura obrigatória!**",
       author: "Leitor C."
     }
   ]
@@ -70,7 +70,7 @@ function App() {
     },
     {
       question: "Existe garantia de satisfação?",
-      answer: "Sim! Temos tanta certeza de que você vai amar o conteúdo que oferecemos uma garantia incondicional de 7 dias. Se por qualquer motivo você não estiver satisfeito, basta nos enviar um e-mail e devolveremos 100% do seu investimento."
+      answer: "Sim! Temos tanta certeza de que você vai amar o conteúdo que oferecemos uma Garantia Incondicional de 7 Dias: Risco Zero para Você!: Risco Zero para Você!. Se por qualquer motivo você não estiver satisfeito, basta nos enviar um e-mail e devolveremos 100% do seu investimento."
     },
     {
       question: "O livro é apenas para homens?",
@@ -94,19 +94,19 @@ function App() {
           <div className="text-center mb-12">
             <div className="inline-block animate-pulse mb-6">
               <span className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wider shadow-lg">
-                🔥 Oferta Especial de Lançamento
+                🔥 OFERTA EXCLUSIVA: SÓ HOJE!
               </span>
             </div>
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Desvende o Segredo Mais Bem Guardado dos Casais e{' '}
+              O Segredo que Transformou Milhares de Casais:{' '}
               <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
                 Redefina Sua Intimidade!
               </span>
             </h1>
             
             <p className="text-xl md:text-2xl text-purple-200 mb-8 max-w-3xl mx-auto">
-              Você está pronto para explorar uma dimensão de prazer, conexão e excitação que a maioria apenas sonha?
+              Chegou a hora de quebrar tabus e viver o prazer que você e seu parceiro(a) merecem. Comece sua transformação agora!
             </p>
           </div>
 
@@ -148,7 +148,7 @@ function App() {
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              A Maioria das Pessoas Vive com Fantasias Ocultas...
+              O SEGREDO QUE PODE SALVAR SEU RELACIONAMENTO. VOCÊ ESTÁ PRONTO(A)?
             </h2>
             <p className="text-xl text-purple-200 leading-relaxed">
               Medos de julgamento e a crença de que certas experiências são inatingíveis ou proibidas. A rotina sexual pode se tornar previsível, e a busca por algo novo pode gerar insegurança ou culpa. Mas e se houvesse um caminho para transformar essas fantasias em realidade, com total consentimento, respeito e, acima de tudo, uma paixão renovada?
@@ -163,10 +163,10 @@ function App() {
           <div className="bg-gradient-to-br from-purple-900/50 to-pink-900/50 backdrop-blur-lg rounded-3xl p-8 md:p-12 border border-white/20 shadow-2xl">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-                "Como Aderir ao Cucoldry: Descubra o Segredo dos Casais"
+                "Como Aderir ao Cucoldry": O Guia Definitivo para Intimidade e Prazer Sem Limites.
               </h2>
               <p className="text-xl text-purple-100 leading-relaxed max-w-4xl mx-auto">
-                É mais do que um livro; é um <span className="font-bold text-pink-300">guia transformador</span> que o(a) levará a uma jornada de autodescoberta e exploração sexual. Escrito por <span className="font-bold text-pink-300">Paulinho Fernando</span>, uma autoridade no tema, este livro desmistifica o universo do Cuckoldry, revelando como casais ao redor do mundo estão utilizando essa prática para intensificar a intimidade, a confiança e o prazer em seus relacionamentos.
+                Este não é apenas um livro. É o <span className="font-bold text-pink-300">mapa</span> para uma vida sexual que você nunca imaginou. Escrito por <span className="font-bold text-pink-300">Paulinho Fernando</span>, a maior autoridade em relacionamentos consensuais, este guia revela o método exato que casais de sucesso usam para **multiplicar a paixão, a confiança e o prazer** em seus relacionamentos. **100% focado em Consentimento e Segurança.**
               </p>
               <p className="text-2xl text-pink-300 font-semibold mt-6">
                 Prepare-se para quebrar barreiras, desafiar preconceitos e abrir as portas para uma nova era de excitação mútua.
@@ -184,7 +184,7 @@ function App() {
               O Que Você Vai Descobrir
             </h2>
             <p className="text-xl text-purple-200">
-              Ao mergulhar nas páginas deste livro transformador
+              O que você vai DESBLOQUEAR imediatamente:
             </p>
           </div>
 
@@ -305,12 +305,12 @@ function App() {
               </div>
 
               <div className="mb-8">
-                <p className="text-white text-xl mb-2">De <span className="line-through">R$ 99,90</span></p>
+                <p className="text-white text-xl mb-2">De <span className="line-through">R$ 197,00</span> (Preço Original)</p>
                 <p className="text-5xl md:text-6xl font-bold text-white mb-2">
-                  R$ 49,90
+                  12x de R$ 4,99 ou R$ 49,90 à vista
                 </p>
                 <p className="text-pink-200 text-lg">
-                  Preço Especial de Lançamento - Por Tempo Limitado!
+                  **OFERTA RELÂMPAGO:** Válida Somente Hoje! (Economize R$ 147,10)
                 </p>
               </div>
 
@@ -319,12 +319,12 @@ function App() {
                 size="lg"
                 className="bg-white text-purple-900 hover:bg-purple-100 text-xl px-12 py-6 h-auto rounded-full font-bold shadow-2xl transform transition-all duration-300 hover:scale-105"
               >
-                QUERO DESCOBRIR O SEGREDO DOS CASAIS AGORA!
+                SIM! QUERO DESBLOQUEAR MEU PRAZER AGORA E SALVAR MEU RELACIONAMENTO!
               </Button>
 
               <div className="mt-6 flex items-center justify-center gap-2 text-white">
                 <Shield className="w-5 h-5" />
-                <p className="text-sm">Garantia incondicional de 7 dias</p>
+                <p className="text-sm">Garantia Incondicional de 7 Dias: Risco Zero para Você!</p>
               </div>
             </div>
           </div>
@@ -366,17 +366,17 @@ function App() {
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="bg-gradient-to-br from-purple-900/50 to-pink-900/50 backdrop-blur-lg rounded-3xl p-8 md:p-12 border border-white/20 shadow-2xl text-center">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Não Deixe a Rotina Apagar a Chama da Sua Paixão!
+              ESTA É SUA ÚLTIMA CHANCE: O Prazer Não Pode Esperar!
             </h2>
             <p className="text-xl text-purple-100 mb-8 leading-relaxed">
-              Comece hoje mesmo a desvendar os segredos de uma vida sexual mais excitante e conectada. Sua jornada de transformação está a um clique de distância.
+              O tempo está acabando. Garanta o acesso imediato ao segredo que transformará sua intimidade. Clique agora e comece a viver o prazer que você merece!
             </p>
             <Button 
               onClick={handleCTA}
               size="lg"
               className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white text-xl px-12 py-6 h-auto rounded-full font-bold shadow-2xl transform transition-all duration-300 hover:scale-105"
             >
-              GARANTIR MINHA CÓPIA AGORA!
+              QUERO MEU ACESSO IMEDIATO E OS BÔNUS EXCLUSIVOS!
             </Button>
           </div>
         </div>
