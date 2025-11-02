@@ -122,6 +122,15 @@ function App() {
                 <p className="text-purple-100 text-lg leading-relaxed">
                   O desejo de ir além do convencional, de quebrar tabus e de experimentar o êxtase de uma conexão verdadeiramente livre e consensual é mais comum do que você imagina.
                 </p>
+                <div className="mt-6">
+                  <Button
+                    onClick={handleCTA}
+                    size="lg"
+                    className="w-full sm:w-auto bg-gradient-to-r from-pink-500 to-purple-500 text-white hover:from-pink-600 hover:to-purple-600 text-base sm:text-lg px-6 py-3 rounded-full font-bold shadow-lg transform transition-all duration-300 hover:scale-105"
+                  >
+                    começar agora 49,90
+                  </Button>
+                </div>
               </div>
             </div>
 
@@ -264,67 +273,69 @@ function App() {
       </section>
 
       {/* Offer Section */}
-      <section className="py-16">
+      <section className="py-12 sm:py-16">
         <div className="container mx-auto px-4 max-w-4xl">
-          <div className="bg-gradient-to-br from-pink-600 to-purple-600 rounded-3xl p-8 md:p-12 shadow-2xl">
+          <div className="bg-gradient-to-br from-pink-600 to-purple-600 rounded-3xl p-6 sm:p-8 md:p-12 shadow-2xl">
             <div className="text-center">
-              <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
+              <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-4 sm:mb-6">
                 Oferta Especial e Bônus Exclusivos
               </h2>
               
-              <div className="bg-white/20 backdrop-blur-lg rounded-2xl p-8 mb-8">
-                <h3 className="text-2xl font-bold text-white mb-6">
+              <div className="bg-white/20 backdrop-blur-lg rounded-2xl p-6 sm:p-8 mb-6 sm:mb-8">
+                <h3 className="text-lg sm:text-2xl font-bold text-white mb-4 sm:mb-6">
                   Adquira agora e receba:
                 </h3>
                 
-                <div className="space-y-4 text-left">
+                <div className="space-y-4 text-left text-sm sm:text-base">
                   <div className="flex items-start gap-3">
-                    <Check className="w-6 h-6 text-green-300 flex-shrink-0 mt-1" />
+                    <Check className="w-5 h-5 text-green-300 flex-shrink-0 mt-1" />
                     <div>
-                      <p className="text-white font-semibold text-lg">E-book Principal</p>
+                      <p className="text-white font-semibold">E-book Principal</p>
                       <p className="text-purple-100">O guia completo para transformar sua vida sexual</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start gap-3">
-                    <Gift className="w-6 h-6 text-pink-300 flex-shrink-0 mt-1" />
+                    <Gift className="w-5 h-5 text-pink-300 flex-shrink-0 mt-1" />
                     <div>
-                      <p className="text-white font-semibold text-lg">Bônus 1: Guia Rápido de Comunicação Consensual</p>
+                      <p className="text-white font-semibold">Bônus 1: Guia Rápido de Comunicação Consensual</p>
                       <p className="text-purple-100">Ferramentas práticas para garantir que todas as experiências sejam seguras e prazerosas</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start gap-3">
-                    <Gift className="w-6 h-6 text-pink-300 flex-shrink-0 mt-1" />
+                    <Gift className="w-5 h-5 text-pink-300 flex-shrink-0 mt-1" />
                     <div>
-                      <p className="text-white font-semibold text-lg">Bônus 2: 10 Fantasias para Explorar Juntos</p>
+                      <p className="text-white font-semibold">Bônus 2: 10 Fantasias para Explorar Juntos</p>
                       <p className="text-purple-100">Ideias e sugestões para começar sua jornada de descoberta</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="mb-8">
-                <p className="text-white text-xl mb-2">De <span className="line-through">R$ 197,00</span> (Preço Original)</p>
-                <p className="text-5xl md:text-6xl font-bold text-white mb-2">
+              <div className="mb-6 sm:mb-8">
+                <p className="text-white text-base sm:text-lg mb-1">De <span className="line-through">R$ 197,00</span> (Preço Original)</p>
+                <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2 leading-tight">
                   12x de R$ 4,99 ou R$ 49,90 à vista
                 </p>
-                <p className="text-pink-200 text-lg">
+                <p className="text-pink-200 text-sm sm:text-lg">
                   **OFERTA RELÂMPAGO:** Válida Somente Hoje! (Economize R$ 147,10)
                 </p>
               </div>
 
-              <Button 
-                onClick={handleCTA}
-                size="lg"
-                className="bg-white text-purple-900 hover:bg-purple-100 text-xl px-12 py-6 h-auto rounded-full font-bold shadow-2xl transform transition-all duration-300 hover:scale-105"
-              >
-                SIM! QUERO DESBLOQUEAR MEU PRAZER AGORA E SALVAR MEU RELACIONAMENTO!
-              </Button>
+              <div className="px-4 sm:px-0">
+                <Button 
+                  onClick={handleCTA}
+                  size="lg"
+                  className="w-full sm:w-auto bg-white text-purple-900 hover:bg-purple-100 text-base sm:text-xl px-6 sm:px-12 py-3 sm:py-4 rounded-full font-bold shadow-2xl transform transition-all duration-300 hover:scale-105"
+                >
+                  <span className="block sm:inline">SIM! QUERO DESBLOQUEAR MEU PRAZER AGORA E SALVAR MEU RELACIONAMENTO!</span>
+                </Button>
+              </div>
 
-              <div className="mt-6 flex items-center justify-center gap-2 text-white">
+              <div className="mt-4 sm:mt-6 flex items-center justify-center gap-2 text-white text-sm">
                 <Shield className="w-5 h-5" />
-                <p className="text-sm">Garantia Incondicional de 7 Dias: Risco Zero para Você!</p>
+                <p className="text-xs sm:text-sm">Garantia Incondicional de 7 Dias: Risco Zero para Você!</p>
               </div>
             </div>
           </div>
