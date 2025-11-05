@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from '@vercel/analytics/react';
 import { Button } from '@/components/ui/button.jsx'
 import { Check, Gift, Shield, Star, Users, Heart, Sparkles } from 'lucide-react'
 import bookCover from './assets/book-cover.png'
@@ -86,6 +87,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-purple-900 to-slate-900">
+      <Analytics />
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDUpIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-20"></div>
@@ -317,7 +319,7 @@ function App() {
               <Button 
                 onClick={handleCTA}
                 size="lg"
-                className="bg-white text-purple-900 hover:bg-purple-100 text-xl px-12 py-6 h-auto rounded-full font-bold shadow-2xl transform transition-all duration-300 hover:scale-105"
+                className="bg-white text-purple-900 hover:bg-purple-100 text-base md:text-xl px-8 md:px-12 py-4 md:py-6 h-auto rounded-full font-bold shadow-2xl transform transition-all duration-300 hover:scale-105"
               >
                 QUERO DESCOBRIR O SEGREDO DOS CASAIS AGORA!
               </Button>
@@ -374,7 +376,7 @@ function App() {
             <Button 
               onClick={handleCTA}
               size="lg"
-              className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white text-xl px-12 py-6 h-auto rounded-full font-bold shadow-2xl transform transition-all duration-300 hover:scale-105"
+              className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white text-base md:text-xl px-8 md:px-12 py-4 md:py-6 h-auto rounded-full font-bold shadow-2xl transform transition-all duration-300 hover:scale-105"
             >
               GARANTIR MINHA CÓPIA AGORA!
             </Button>
